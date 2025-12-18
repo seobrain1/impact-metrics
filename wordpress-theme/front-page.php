@@ -303,7 +303,7 @@ get_header();
                                     <?php echo seobrain_get_icon('phone'); ?>
                                 </div>
                                 <div>
-                                    <p class="contact-item-label">Telefone</p>
+                                    <p class="contact-item-label">WhatsApp</p>
                                     <p class="contact-item-value"><?php echo esc_html(get_theme_mod('contact_phone', '(11) 99999-9999')); ?></p>
                                 </div>
                             </div>
