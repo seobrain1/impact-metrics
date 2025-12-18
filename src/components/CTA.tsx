@@ -20,7 +20,7 @@ const CTA = () => {
               <span className="text-gradient">Especialista em SEO</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Solicite uma análise gratuita do seu site e descubra como nossa agência de marketing digital pode aumentar seu tráfego orgânico
+              Solicite uma análise gratuita do seu site e descubra como nossa Consultoria em SEO pode aumentar seu tráfego orgânico
             </p>
           </div>
 

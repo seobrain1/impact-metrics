@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm mb-8 animate-fade-up">
             <Zap className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-primary-foreground/90">
-              Agência de SEO especializada em resultados
+              Cresça no Google com estratégias de SEO que geram tráfego, leads e vendas
             </span>
           </div>
 
@@ -42,13 +42,8 @@ const Hero = () => {
           </h1>
 
           {/* Description after H1 */}
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-6 max-w-3xl mx-auto animate-fade-up font-medium" style={{ animationDelay: "0.15s" }}>
+          <p className="text-base md:text-lg text-primary-foreground/90 mb-10 max-w-3xl mx-auto animate-fade-up font-medium" style={{ animationDelay: "0.15s" }}>
             A SEO Brain é uma consultoria de SEO especialista em posicionar empresas no topo do Google. Conquistando mais visibilidade, tráfego qualificado e conversões reais aos seus clientes.
-          </p>
-
-          {/* Subheading */}
-          <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Transformamos seu site em uma máquina de atrair clientes qualificados através de SEO avançado, conteúdo estratégico e análise de dados.
           </p>
 
           {/* CTA Buttons */}
