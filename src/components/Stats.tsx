@@ -42,10 +42,13 @@ const Stats = () => {
             Nossos Resultados
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
-            Resultados que Falam por Si
+            Resultados da Nossa{" "}
+            <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, hsl(175 70% 55%) 0%, hsl(35 100% 55%) 100%)' }}>
+              Estratégia de SEO
+            </span>
           </h2>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
-            Números reais de empresas que transformaram sua presença digital com a SEO Brain
+            Números reais de empresas que transformaram sua presença digital com nossa consultoria de otimização para buscadores
           </p>
         </div>
 
