@@ -15,21 +15,17 @@ get_header();
             <div class="hero-content">
                 <div class="hero-badge">
                     <?php echo seobrain_get_icon('zap'); ?>
-                    <span>Agência de SEO especializada em resultados</span>
+                    <span>Cresça no Google com estratégias de SEO que geram tráfego, leads e vendas</span>
                 </div>
 
                 <h1 class="hero-title">
-                    <?php 
-                    $hero_title = get_theme_mod('hero_title', 'Domine o Google com Estratégias Inteligentes');
-                    $parts = explode('Estratégias', $hero_title);
-                    echo esc_html($parts[0]);
-                    ?>
-                    <span class="highlight">Estratégias</span>
-                    <?php echo isset($parts[1]) ? esc_html($parts[1]) : ' Inteligentes'; ?>
+                    Consultoria de SEO focada em
+                    <span class="highlight">crescimento orgânico</span>
+                    e resultados reais
                 </h1>
 
                 <p class="hero-description">
-                    <?php echo esc_html(get_theme_mod('hero_description', 'Transformamos seu site em uma máquina de atrair clientes qualificados através de SEO avançado, conteúdo estratégico e análise de dados.')); ?>
+                    A SEO Brain é uma consultoria de SEO especialista em posicionar empresas no topo do Google. Conquistando mais visibilidade, tráfego qualificado e conversões reais aos seus clientes.
                 </p>
 
                 <div class="hero-buttons">
@@ -75,8 +71,8 @@ get_header();
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">Nossos Serviços</span>
-                <h2 class="section-title">Soluções Completas em <span class="text-gradient">SEO</span></h2>
-                <p class="section-description">Oferecemos um ecossistema completo de serviços para posicionar sua marca no topo do Google</p>
+                <h2 class="section-title">Serviços de Otimização <span class="text-gradient">para Buscadores</span></h2>
+                <p class="section-description">Oferecemos um ecossistema completo de serviços de consultoria SEO para posicionar sua marca no topo do Google</p>
             </div>
 
             <div class="services-grid">
@@ -144,8 +140,8 @@ get_header();
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">Nossos Resultados</span>
-                <h2 class="section-title">Resultados que Falam por Si</h2>
-                <p class="section-description">Números reais de empresas que transformaram sua presença digital com a SEO Brain</p>
+                <h2 class="section-title">Resultados da Nossa Estratégia de SEO</h2>
+                <p class="section-description">Números reais de empresas que transformaram sua presença digital com nossa consultoria de otimização para buscadores</p>
             </div>
 
             <div class="stats-grid">
@@ -177,16 +173,16 @@ get_header();
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">Depoimentos</span>
-                <h2 class="section-title">O Que Nossos Clientes <span class="text-gradient">Dizem</span></h2>
-                <p class="section-description">Histórias reais de empresas que transformaram sua presença digital</p>
+                <h2 class="section-title">O Que Nossos Clientes de Consultoria SEO <span class="text-gradient">Dizem</span></h2>
+                <p class="section-description">Histórias reais de empresas que transformaram sua presença digital com nossa agência de otimização</p>
             </div>
 
             <div class="testimonials-grid">
                 <?php
                 $testimonials = array(
                     array(
-                        'name'    => 'Ricardo Mendes',
-                        'role'    => 'CEO, TechStart Brasil',
+                        'name'    => 'Cinthia Landim',
+                        'role'    => 'Proprietária, Aroma Leve',
                         'content' => 'Em 6 meses, nosso tráfego orgânico cresceu 420%. A SEO Brain entende profundamente o algoritmo do Google e entrega resultados consistentes.',
                         'rating'  => 5,
                     ),
@@ -241,8 +237,8 @@ get_header();
             <div class="cta-content">
                 <div class="section-header">
                     <span class="section-badge">Vamos Conversar</span>
-                    <h2 class="section-title">Pronto para <span class="text-gradient">Dominar</span> o Google?</h2>
-                    <p class="section-description">Solicite uma análise gratuita do seu site e descubra como podemos aumentar seu tráfego orgânico</p>
+                    <h2 class="section-title">Contrate Seu <span class="text-gradient">Especialista em SEO</span></h2>
+                    <p class="section-description">Solicite uma análise gratuita do seu site e descubra como nossa Consultoria em SEO pode aumentar seu tráfego orgânico</p>
                 </div>
 
                 <?php

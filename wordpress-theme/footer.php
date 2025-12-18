@@ -52,7 +52,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. Todos os direitos reservados.</p>
+            <p>&copy; 2026 <?php bloginfo('name'); ?>. Todos os direitos reservados.</p>
             <div class="footer-bottom-links">
                 <a href="<?php echo esc_url(get_privacy_policy_url()); ?>">Política de Privacidade</a>
                 <a href="#">Termos de Uso</a>
