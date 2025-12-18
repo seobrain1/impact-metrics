@@ -16,12 +16,11 @@ const CTA = () => {
               Vamos Conversar
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-              Pronto para{" "}
-              <span className="text-gradient">Dominar</span>{" "}
-              o Google?
+              Contrate Seu{" "}
+              <span className="text-gradient">Especialista em SEO</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Solicite uma análise gratuita do seu site e descubra como podemos aumentar seu tráfego orgânico
+              Solicite uma análise gratuita do seu site e descubra como nossa agência de marketing digital pode aumentar seu tráfego orgânico
             </p>
           </div>
 

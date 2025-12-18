@@ -48,11 +48,11 @@ const Services = () => {
             Nossos Serviços
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Soluções Completas em{" "}
-            <span className="text-gradient">SEO</span>
+            Serviços de Otimização{" "}
+            <span className="text-gradient">para Buscadores</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Oferecemos um ecossistema completo de serviços para posicionar sua marca no topo do Google
+            Oferecemos um ecossistema completo de serviços de consultoria SEO para posicionar sua marca no topo do Google
           </p>
         </div>
 

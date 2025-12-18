@@ -32,14 +32,19 @@ const Hero = () => {
 
           {/* Main heading */}
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Domine o Google com{" "}
+            Consultoria de SEO focada em{" "}
             <span className="relative inline-block">
               <span className="relative z-10 text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, hsl(175 70% 55%) 0%, hsl(35 100% 55%) 100%)' }}>
-                Estratégias
+                crescimento orgânico
               </span>
             </span>{" "}
-            Inteligentes
+            e resultados reais
           </h1>
+
+          {/* Description after H1 */}
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-6 max-w-3xl mx-auto animate-fade-up font-medium" style={{ animationDelay: "0.15s" }}>
+            A SEO Brain é uma consultoria de SEO especialista em posicionar empresas no topo do Google. Conquistando mais visibilidade, tráfego qualificado e conversões reais aos seus clientes.
+          </p>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>

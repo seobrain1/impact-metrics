@@ -2,8 +2,8 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Ricardo Mendes",
-    role: "CEO, TechStart Brasil",
+    name: "Cinthia Landim",
+    role: "Proprietária, Aroma Leve",
     content: "Em 6 meses, nosso tráfego orgânico cresceu 420%. A SEO Brain entende profundamente o algoritmo do Google e entrega resultados consistentes.",
     rating: 5,
   },
@@ -30,11 +30,11 @@ const Testimonials = () => {
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            O Que Nossos Clientes{" "}
-            <span className="text-gradient">Dizem</span>
+            Cases de Sucesso em{" "}
+            <span className="text-gradient">Posicionamento Orgânico</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Histórias reais de empresas que transformaram sua presença digital
+            Histórias reais de empresas que transformaram sua presença digital com nossa consultoria SEO
           </p>
         </div>
 
