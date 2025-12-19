@@ -54,9 +54,10 @@
         <div class="footer-bottom">
             <p>&copy; 2026 <?php bloginfo('name'); ?>. Todos os direitos reservados.</p>
             <div class="footer-bottom-links">
-                <a href="<?php echo esc_url(get_privacy_policy_url()); ?>">Política de Privacidade</a>
+                <a href="https://seobrain.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Política de Privacidade</a>
                 <a href="#">Termos de Uso</a>
             </div>
+            <p class="footer-legal">DXC Empreendimentos Digitais LTDA - CNPJ: 57.887.403/0001-11</p>
         </div>
     </div>
 </footer>
