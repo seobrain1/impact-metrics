@@ -126,4 +126,78 @@
         });
     }
 
+    // Exit Intent Popup
+    const exitPopup = document.getElementById('exitPopup');
+    const exitPopupClose = document.getElementById('exitPopupClose');
+    const exitPopupForm = document.getElementById('exitPopupForm');
+    let hasShownPopup = localStorage.getItem('exitIntentShown') === 'true';
+    let inactivityTimer;
+
+    function showExitPopup() {
+        if (!hasShownPopup && exitPopup) {
+            exitPopup.classList.add('active');
+            hasShownPopup = true;
+            localStorage.setItem('exitIntentShown', 'true');
+        }
+    }
+
+    function hideExitPopup() {
+        if (exitPopup) {
+            exitPopup.classList.remove('active');
+        }
+    }
+
+    function resetInactivityTimer() {
+        clearTimeout(inactivityTimer);
+        inactivityTimer = setTimeout(showExitPopup, 20000); // 20 seconds
+    }
+
+    // Exit intent - mouse leaves viewport (top)
+    document.addEventListener('mouseleave', function(e) {
+        if (e.clientY <= 0) {
+            showExitPopup();
+        }
+    });
+
+    // Tab visibility change
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            showExitPopup();
+        }
+    });
+
+    // Inactivity detection
+    ['mousemove', 'keydown', 'scroll', 'click'].forEach(function(event) {
+        document.addEventListener(event, resetInactivityTimer);
+    });
+    resetInactivityTimer();
+
+    // Close popup
+    if (exitPopupClose) {
+        exitPopupClose.addEventListener('click', hideExitPopup);
+    }
+
+    if (exitPopup) {
+        exitPopup.addEventListener('click', function(e) {
+            if (e.target === exitPopup) {
+                hideExitPopup();
+            }
+        });
+    }
+
+    // Exit popup form submission
+    if (exitPopupForm) {
+        exitPopupForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nome = this.querySelector('input[name="nome"]').value;
+            const whatsapp = this.querySelector('input[name="whatsapp"]').value;
+            const url = this.querySelector('input[name="url"]').value;
+            
+            const message = 'Olá! Gostaria de receber um diagnóstico SEO gratuito.\n\nNome: ' + nome + '\nWhatsApp: ' + whatsapp + '\nSite: ' + url;
+            const whatsappUrl = 'https://wa.me/5511961412794?text=' + encodeURIComponent(message);
+            window.open(whatsappUrl, '_blank');
+            hideExitPopup();
+        });
+    }
+
 })();

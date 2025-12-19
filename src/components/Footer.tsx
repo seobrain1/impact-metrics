@@ -65,18 +65,23 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-primary-foreground/60 text-sm">
-            © 2026 SEO Brain. Todos os direitos reservados.
-          </p>
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-              Política de Privacidade
-            </a>
-            <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-              Termos de Uso
-            </a>
+        <div className="pt-8 border-t border-primary-foreground/10 flex flex-col items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4">
+            <p className="text-primary-foreground/60 text-sm">
+              © 2026 SEO Brain. Todos os direitos reservados.
+            </p>
+            <div className="flex gap-6 text-sm">
+              <a href="https://seobrain.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                Política de Privacidade
+              </a>
+              <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                Termos de Uso
+              </a>
+            </div>
           </div>
+          <p className="text-primary-foreground/40 text-xs text-center">
+            DXC Empreendimentos Digitais LTDA - CNPJ: 57.887.403/0001-11
+          </p>
         </div>
       </div>
     </footer>

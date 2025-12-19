@@ -5,7 +5,7 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -18,6 +18,7 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
+      <ExitIntentPopup />
     </div>
   );
 };
