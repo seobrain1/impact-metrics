@@ -1,0 +1,87 @@
+import { ArrowRight, Search, BarChart3, Zap } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const HeroAgencia = () => {
+  return (
+    <section className="relative min-h-screen gradient-hero overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 right-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float" />
+        <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "-3s" }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
+      </div>
+
+      {/* Grid pattern overlay */}
+      <div 
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `linear-gradient(hsl(var(--primary-foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary-foreground)) 1px, transparent 1px)`,
+          backgroundSize: '60px 60px'
+        }}
+      />
+
+      <div className="container relative z-10 pt-32 pb-20 md:pt-40 md:pb-32">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm mb-8 animate-fade-up">
+            <Zap className="w-4 h-4 text-accent" />
+            <span className="text-sm font-medium text-primary-foreground/90">
+              Estratégias de SEO personalizadas para o seu negócio
+            </span>
+          </div>
+
+          {/* Main heading */}
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <span className="relative inline-block">
+              <span className="relative z-10 text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, hsl(175 70% 55%) 0%, hsl(35 100% 55%) 100%)' }}>
+                Agência Especializada em SEO
+              </span>
+            </span>{" "}
+            para dominar o Google
+          </h1>
+
+          {/* Description after H1 */}
+          <p className="text-base md:text-lg text-primary-foreground/90 mb-10 max-w-3xl mx-auto animate-fade-up font-medium" style={{ animationDelay: "0.15s" }}>
+            Somos uma agência especializada em SEO com foco total em resultados. Nossa equipe de especialistas desenvolve estratégias personalizadas para posicionar sua empresa nas primeiras posições do Google, gerando tráfego qualificado e vendas reais.
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <Button variant="accent" size="xl">
+              Falar com Especialista
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+            <Button variant="heroOutline" size="xl">
+              Ver Cases de Sucesso
+            </Button>
+          </div>
+
+          {/* Feature cards */}
+          <div className="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: "0.4s" }}>
+            {[
+              { icon: Search, label: "SEO Técnico", desc: "Otimização completa do site" },
+              { icon: BarChart3, label: "SEO On-Page", desc: "Conteúdo otimizado" },
+              { icon: Zap, label: "SEO Off-Page", desc: "Link building estratégico" },
+            ].map((feature, index) => (
+              <div
+                key={index}
+                className="p-5 rounded-2xl bg-primary-foreground/5 border border-primary-foreground/10 backdrop-blur-sm hover:bg-primary-foreground/10 hover:border-primary-foreground/20 transition-all duration-300 group"
+              >
+                <div className="w-12 h-12 mx-auto mb-3 rounded-xl gradient-primary flex items-center justify-center shadow-glow group-hover:scale-110 transition-transform">
+                  <feature.icon className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <p className="font-semibold text-primary-foreground mb-1">{feature.label}</p>
+                <p className="text-sm text-primary-foreground/60">{feature.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom gradient fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
+    </section>
+  );
+};
+
+export default HeroAgencia;
