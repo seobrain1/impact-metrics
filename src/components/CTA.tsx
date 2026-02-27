@@ -102,8 +102,8 @@ const CTA = () => {
                     <Phone className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Telefone</p>
-                    <p className="font-semibold text-foreground">(11) 99999-9999</p>
+                    <p className="text-sm text-muted-foreground">WhatsApp</p>
+                    <p className="font-semibold text-foreground">(11) 96141-2794</p>
                   </div>
                 </div>
 
