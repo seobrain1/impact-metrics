@@ -189,7 +189,7 @@ function seobrain_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('contact_phone', array(
-        'default'           => '(11) 99999-9999',
+        'default'           => '(11) 96141-2794',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
@@ -200,7 +200,7 @@ function seobrain_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('contact_location', array(
-        'default'           => 'São Paulo, Brasil',
+        'default'           => 'Avenida Paulista, 1636, Sala 1105, Bela Vista, São Paulo - SP, CEP: 01310-200',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 

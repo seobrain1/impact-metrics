@@ -8,7 +8,7 @@
                     </div>
                     <span class="logo-text"><?php bloginfo('name'); ?></span>
                 </a>
-                <p>Somos uma agência especializada em SEO com foco em resultados mensuráveis. Ajudamos empresas a conquistar as primeiras posições do Google de forma sustentável.</p>
+                <p>Somos uma consultoria seo com foco em resultados mensuráveis. Ajudamos empresas a conquistar as primeiras posições do Google de forma sustentável.</p>
                 <div class="footer-social">
                     <?php if (get_theme_mod('social_linkedin', '#')) : ?>
                         <a href="<?php echo esc_url(get_theme_mod('social_linkedin', '#')); ?>" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
