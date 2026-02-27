@@ -304,7 +304,9 @@ get_header();
                                 </div>
                                 <div>
                                     <p class="contact-item-label">WhatsApp</p>
-                                    <p class="contact-item-value"><?php echo esc_html(get_theme_mod('contact_phone', '(11) 99999-9999')); ?></p>
+                                    <p class="contact-item-value">
+                                        <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer"><?php echo esc_html(get_theme_mod('contact_phone', '(11) 96141-2794')); ?></a>
+                                    </p>
                                 </div>
                             </div>
 
@@ -314,7 +316,7 @@ get_header();
                                 </div>
                                 <div>
                                     <p class="contact-item-label">Localização</p>
-                                    <p class="contact-item-value"><?php echo esc_html(get_theme_mod('contact_location', 'São Paulo, Brasil')); ?></p>
+                                    <p class="contact-item-value"><?php echo esc_html(get_theme_mod('contact_location', 'Avenida Paulista, 1636, Sala 1105, Bela Vista, São Paulo - SP, CEP: 01310-200')); ?></p>
                                 </div>
                             </div>
                         </div>
