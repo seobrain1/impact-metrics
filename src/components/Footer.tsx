@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-bold">SEO Brain</span>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Somos uma agência especializada em SEO com foco em resultados mensuráveis. Ajudamos empresas a conquistar as primeiras posições do Google de forma sustentável.
+              Somos uma consultoria seo com foco em resultados mensuráveis. Ajudamos empresas a conquistar as primeiras posições do Google de forma sustentável.
             </p>
             <div className="flex gap-3">
               {[Linkedin, Instagram, Youtube].map((Icon, index) => (
@@ -46,20 +46,18 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Contato */}
           <div>
-            <h4 className="font-semibold mb-4">Serviços</h4>
-            <ul className="space-y-3">
-              {["SEO Técnico", "Conteúdo SEO", "Link Building", "SEO Local", "Consultoria"].map((service) => (
-                <li key={service}>
-                  <a
-                    href="#servicos"
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    {service}
-                  </a>
-                </li>
-              ))}
+            <h4 className="font-semibold mb-4">Contato</h4>
+            <ul className="space-y-3 text-primary-foreground/70 text-sm">
+              <li>
+                <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">
+                  (11) 96141-2794
+                </a>
+              </li>
+              <li>Avenida Paulista, 1636, Sala 1105, Bela Vista</li>
+              <li>CEP: 01310-200</li>
+              <li>São Paulo - SP</li>
             </ul>
           </div>
         </div>
