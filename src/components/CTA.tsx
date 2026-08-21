@@ -68,10 +68,12 @@ const CTA = () => {
                     placeholder="Conte-nos sobre seu projeto..."
                   />
                 </div>
-                <Button variant="accent" size="lg" className="w-full">
-                  Solicitar Análise Gratuita
-                  <ArrowRight className="w-5 h-5" />
-                </Button>
+                <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer">
+                  <Button variant="accent" size="lg" className="w-full">
+                    Solicitar Análise Gratuita
+                    <ArrowRight className="w-5 h-5" />
+                  </Button>
+                </a>
               </form>
             </div>
 
@@ -103,7 +105,9 @@ const CTA = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">WhatsApp</p>
-                    <p className="font-semibold text-foreground">(11) 96141-2794</p>
+                    <p className="font-semibold text-foreground">
+                      <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer">(11) 96141-2794</a>
+                    </p>
                   </div>
                 </div>
 

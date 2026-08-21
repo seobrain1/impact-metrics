@@ -28,7 +28,7 @@ const ExitIntentPopup = () => {
       return;
     }
 
-    let inactivityTimer: NodeJS.Timeout;
+    let inactivityTimer: ReturnType<typeof setTimeout>;
 
     // Exit intent - mouse leaves viewport (top)
     const handleMouseLeave = (e: MouseEvent) => {
