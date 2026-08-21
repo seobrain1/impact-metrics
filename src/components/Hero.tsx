@@ -48,10 +48,12 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="accent" size="xl">
-              Solicitar Análise Gratuita
-              <ArrowRight className="w-5 h-5" />
-            </Button>
+            <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer">
+              <Button variant="accent" size="xl">
+                Solicitar Análise Gratuita
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            </a>
             <Button variant="heroOutline" size="xl">
               Ver Cases de Sucesso
             </Button>

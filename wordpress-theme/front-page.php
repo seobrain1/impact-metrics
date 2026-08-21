@@ -29,7 +29,7 @@ get_header();
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#contato" class="btn btn-accent btn-lg">
+                    <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
                         Solicitar Análise Gratuita
                         <?php echo seobrain_get_icon('arrow-right'); ?>
                     </a>
@@ -277,10 +277,10 @@ get_header();
                             <textarea id="contact_message" name="contact_message" class="form-textarea" placeholder="Conte-nos sobre seu projeto..." required></textarea>
                         </div>
                         
-                        <button type="submit" class="btn btn-accent" style="width: 100%;">
+                        <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer" class="btn btn-accent" style="width: 100%;">
                             Solicitar Análise Gratuita
                             <?php echo seobrain_get_icon('arrow-right'); ?>
-                        </button>
+                        </a>
                     </form>
 
                     <div class="contact-info">

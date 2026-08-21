@@ -54,9 +54,11 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Button variant={isScrolled ? "default" : "heroOutline"} size="default">
-            Fale Conosco
-          </Button>
+          <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer">
+            <Button variant={isScrolled ? "default" : "heroOutline"} size="default">
+              Fale Conosco
+            </Button>
+          </a>
         </div>
 
         <button
@@ -81,9 +83,11 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="default" className="mt-2">
-              Fale Conosco
-            </Button>
+            <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer">
+              <Button variant="default" className="mt-2 w-full">
+                Fale Conosco
+              </Button>
+            </a>
           </nav>
         </div>
       )}

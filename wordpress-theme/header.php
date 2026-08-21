@@ -76,7 +76,7 @@
             </nav>
 
             <div class="header-cta">
-                <a href="#contato" class="btn btn-outline">Fale Conosco</a>
+                <a href="https://wa.me/5511961412794" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Fale Conosco</a>
             </div>
 
             <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menu">
