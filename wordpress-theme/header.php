@@ -3,22 +3,20 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultoria SEO | Agência SEO | Consultor SEO | Top #1Google</title>
-    <meta name="description" content="Consultoria SEO ✓ Domine o topo do Google ✓ + Leads e vendas ✓ Conheça nosso serviço de SEO! Agência SEO ✓ Consultor SEO ✓ Resultados REAIS ✓">
-    <meta name="keywords" content="consultoria SEO, agência SEO, consultor SEO, otimização para buscadores, SEO Brasil">
+    <title>SEO Brain — Consultoria de SEO e Posicionamento no Google</title>
+    <meta name="description" content="A SEO Brain é uma consultoria de SEO especializada em estratégias para aumentar o tráfego orgânico, gerar leads qualificados e posicionar sua empresa no Google.">
     <link rel="canonical" href="<?php echo esc_url(home_url('/')); ?>">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Consultoria SEO | Agência SEO | Consultor SEO | Top #1Google">
-    <meta property="og:description" content="Consultoria SEO ✓ Domine o topo do Google ✓ + Leads e vendas ✓ Conheça nosso serviço de SEO!">
+    <meta property="og:title" content="SEO Brain — Consultoria de SEO e Posicionamento no Google">
+    <meta property="og:description" content="A SEO Brain é uma consultoria de SEO especializada em estratégias para aumentar o tráfego orgânico, gerar leads qualificados e posicionar sua empresa no Google.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo esc_url(home_url('/')); ?>">
     <meta property="og:locale" content="pt_BR">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Consultoria SEO | Agência SEO | Consultor SEO | Top #1Google">
-    <meta name="twitter:description" content="Consultoria SEO ✓ Domine o topo do Google ✓ + Leads e vendas ✓ Conheça nosso serviço de SEO!">
+    <meta name="twitter:site" content="@SEOBrain">
     
     <?php wp_head(); ?>
 </head>

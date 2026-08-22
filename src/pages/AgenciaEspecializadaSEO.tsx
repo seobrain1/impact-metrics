@@ -12,9 +12,10 @@ const AgenciaEspecializadaSEO = () => {
   return (
     <>
       <Helmet>
-        <title>Agência Especializada em SEO | SEO Brain - Especialistas em Posicionamento Google</title>
-        <meta name="description" content="Somos uma agência especializada em SEO com foco em resultados reais. Estratégias personalizadas para posicionar sua empresa no topo do Google e gerar vendas." />
-        <link rel="canonical" href="https://seobrain.com.br/agencia-especializada-em-seo/" />
+        <title>Agência Especializada em SEO | SEO Brain</title>
+        <meta name="description" content="Estratégias de SEO personalizadas para colocar sua empresa no topo do Google, aumentar o tráfego orgânico e gerar mais leads e vendas." />
+        <link rel="canonical" href="https://stats-bloom-sparklee.lovable.app/agencia-especializada-em-seo" />
+        <meta property="og:url" content="https://stats-bloom-sparklee.lovable.app/agencia-especializada-em-seo" />
       </Helmet>
       <div className="min-h-screen">
         <Header />
