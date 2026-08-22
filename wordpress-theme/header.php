@@ -8,7 +8,7 @@
     <link rel="canonical" href="<?php echo esc_url(home_url('/')); ?>">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="SEO Brain — Consultoria de SEO e Posicionamento no Google">
+    <meta property="og:title" content="Consultoria de SEO - Posicionamento no Google">
     <meta property="og:description" content="A SEO Brain é uma consultoria de SEO especializada em estratégias para aumentar o tráfego orgânico, gerar leads qualificados e posicionar sua empresa no Google.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo esc_url(home_url('/')); ?>">
@@ -32,19 +32,6 @@
                 <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
         </button>
-        <div class="exit-popup-icon">🔍</div>
-        <h2>Receba um diagnóstico SEO gratuito</h2>
-        <p>Descubra por que seu site não aparece no Google</p>
-        <form class="exit-popup-form" id="exitPopupForm">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="tel" name="whatsapp" placeholder="WhatsApp (com DDD)" required>
-            <input type="url" name="url" placeholder="URL do seu site" required>
-            <button type="submit">Quero meu diagnóstico gratuito</button>
-        </form>
-        <p class="exit-popup-disclaimer">Seus dados estão seguros. Não enviamos spam.</p>
-    </div>
-</div>
-
 <header class="site-header" id="site-header">
     <div class="container">
         <div class="header-inner">
