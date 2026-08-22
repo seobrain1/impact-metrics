@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://stats-bloom-sparklee.lovable.app/sitemap.xml
