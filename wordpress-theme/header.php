@@ -3,8 +3,8 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEO Brain — Consultoria de SEO e Posicionamento no Google</title>
-    <meta name="description" content="A SEO Brain é uma consultoria de SEO especializada em estratégias para aumentar o tráfego orgânico, gerar leads qualificados e posicionar sua empresa no Google.">
+    <title>Consultoria SEO - Posicionamento no Google</title>
+    <meta name="description" content="A SEO Brain é uma consultoria SEO especializada em estratégias para aumentar o tráfego orgânico, gerar leads qualificados e posicionar sua empresa no Google.">
     <link rel="canonical" href="<?php echo esc_url(home_url('/')); ?>">
     
     <!-- Open Graph -->
